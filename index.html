@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Personal stylesheets-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <title>Pyschic Game</title>
+</head>
+<body>
+    <br><br>
+
+    <div class="container">
+        <div class="row">
+            <div id="psychic-window" class="col-xs-10 col-xs-offset-1">
+                <br><br>
+                
+                <div class="row">
+                    <h1 id="game-title">Psychic Game</h1>    
+                </div>
+                
+                <br><br>
+                <div class="col-xs-12">
+                    
+                    <div class="col-xs-6">
+                        <div class="row">
+                            <p>Can you guess the number I am thinking of?</p>
+                        </div><br><br>
+                        
+                        <div class="row">
+                            <p>It is a number 0-9. take a guess...</p>
+                        </div><br><br>
+                        
+                        <div class="row">
+                            <p>Numbers you have guessed: <span id="user-text"></span></p><br><br>
+                            <p>Guesses left: <span id="guesses-text"></span></p>
+                        </div><br><br>
+                    </div>
+
+                    <div class="col-xs-4 col-xs-offset-2">
+                        <div class="row">
+                            <p>Number of wins: <span id="wins-text"></span></p><br><br>
+                            <p>Number of losses: <span id="losses-text"></span></p>
+                        </div>    
+                    </div>
+                    
+
+                    
+
+                    
+
+                    
+                    
+                </div>
+
+
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
