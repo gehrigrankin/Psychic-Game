@@ -23,12 +23,14 @@ document.onkeyup = function(event) {
                 userWins++;
                 userGuessesLeft = 3;
                 guesses = [];
+                alert("Wow dude good job");
             }
 
             if (userGuessesLeft == 0) {
                 userGuessesLeft = 3;
                 userLosses++;
                 guesses = [];
+                alert("Game Over. The correct answer was " + comNumber);
             }
 
             document.getElementById("user-text").innerHTML = guesses;
